@@ -1,0 +1,30 @@
+package com.inigofrabasa.spacexdemo.features.rocketLaunches.model.view
+
+data class LaunchesView(
+        val fairingsView : FairingsView?,
+        val linksView : LinksView?,
+        val static_fire_date_utc : String?,
+        val static_fire_date_unix : Int?,
+        val tbd : Boolean?,
+        val net : Boolean?,
+        val window : Int?,
+        val rocket : String?,
+        val success : Boolean?,
+        val details : String?,
+        val crew : List<String>?,
+        val ships : List<String>?,
+        val capsules : List<String>?,
+        val payloads : List<String>?,
+        val launchpad : String?,
+        val auto_update : Boolean?,
+        val failuresView : List<FailuresView>?,
+        val flight_number : Int?,
+        val name : String?,
+        val date_utc : String?,
+        val date_unix : Int?,
+        val date_local : String?,
+        val date_precision : String?,
+        val upcoming : Boolean?,
+        val coresView : List<CoresView>?,
+        val id : String?
+)
